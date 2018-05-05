@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<url>
+    <loc>http://farnood.me</loc>
+    <lastmod>2018-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://farnood.me/</loc>
+    <lastmod>2018-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://farnood.me/index.html</loc>
+    <lastmod>2018-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>0.5</priority>
+</url>  
+<url>
+    <loc>http://farnood.me/assets/files/farnoodforoudicv.pdf</loc>
+    <lastmod>2018-05-05</lastmod>
+    <changefreq>monthly</changefreq>
+
+    <priority>0.5</priority>
+</url>  
+</urlset>      
