@@ -320,8 +320,15 @@ jQuery(function ($) {
     // });
 
 
-
-
+    // -------------------------------------------------------------
+    // Jribbble
+    // -------------------------------------------------------------
+    // Get the first page of your shots at 12 per page and display them in the DOM.
+    jribbble.shots({token: "294a387e40f7da213a04185ac18cdbed67cc0803856112ab590c3985e1744438", page: 1, per_page: 12}, function(shotsArray) {
+      document.querySelector(".dribbble-shots").innerHTML = shotsArray.reduce(function(html, shot) {
+        return html + '<div id="grid" class="dribbble-shots"><div class="portfolio-item col-xs-12 col-sm-4 col-md-3"><div class="portfolio-bg"><div class="portfolio"><div class="tt-overlay"></div><div class="links"><a class="image-link" href="' + shot.images.hidpi + '"><i class="fa fa-search-plus"></i></a><a href="' +  shot.html_url + '" target="_blank"><i class="fa fa-link"></i></a></div><img src="' + shot.images.hidpi + '" alt="image"><div class="portfolio-info"><h3>'+  shot.title +' </h3></div></div></div></div></div>';
+      }, "");
+    });
     // -------------------------------------------------------------
     // Google Map
     // -------------------------------------------------------------
